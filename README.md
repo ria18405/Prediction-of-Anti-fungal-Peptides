@@ -1,18 +1,18 @@
 #### IQB ASSIGNMENT 2
 
 * **Team Members:-**
-- Amandeep Kaur (2018014)
-- Deepi Garg (2018389)
-- Ria Gupta (2018405)
+	- Amandeep Kaur (2018014)
+	- Deepi Garg (2018389)
+	- Ria Gupta (2018405)
 
 * **Python script:**​ iqb.py
 
-* **Input:**​ 2 CSV format file (Default: test.csv, train.csv)
+* **Input:**​  2 CSV format file (Default: test.csv, train.csv)
 
-* **External support:** ​ GPS Raghava’s Pfeature (Pass train.csv(test.csv) to
+* **External support:**  GPS Raghava’s Pfeature (Pass train.csv(test.csv) to
 Pfeature to get dipeptide_result_train.csv(dipeptide_result_test.csv))
 
-* **Output:**​ 1 CSV format files (Default: output.csv)
+* **Output:**​  1 CSV format files (Default: output.csv)
 
 * **Command to run the script:-**
 
@@ -38,7 +38,6 @@ count of each amino acid in the sequence.
 The function returns a list of such lists for each sequence.
 
 * **TRAINING**
-
 The labels given in train.csv are copied into a list Y.
 The methods amino_composition and dipeptide_composition are called on
 train.csv and values are stored in lists X1 and X2 respectively.
