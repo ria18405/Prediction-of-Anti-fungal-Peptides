@@ -5,24 +5,22 @@
 	- Deepi Garg (2018389)
 	- Ria Gupta (2018405)
 
-* **Python script:**​ iqb.py
+* **Python script:** iqb.py
 
-* **Input:**​  2 CSV format file (Default: test.csv, train.csv)
+* **Input:** 2 CSV format file (Default: test.csv, train.csv)
 
-* **External support:**  GPS Raghava’s Pfeature (Pass train.csv(test.csv) to
+* **External support:** GPS Raghava’s Pfeature (Pass train.csv(test.csv) to
 Pfeature to get dipeptide_result_train.csv(dipeptide_result_test.csv))
 
-* **Output:**​  1 CSV format files (Default: output.csv)
+* **Output:** 1 CSV format files (Default: output.csv)
 
 * **Command to run the script:-**
 
-Put train.csv, test.csv, dipeptide_result_train.csv, dipeptide_result_test.csv
-in the same folder as the code file iqb.py and in terminal use the following
-command.
+	Put train.csv, test.csv, dipeptide_result_train.csv, dipeptide_result_test.csv in the same folder as the code file iqb.py and in terminal use the following command.
 
-`$ python3 iqb.py`
+	`$ python3 iqb.py`
 
-The python script uses the library sklearn to import svm.
+	The python script uses the library sklearn to import svm.
 
 - We define a function **dipeptite_composition(file)**, the function reads the file line-by-line and stores values of dipeptide compositions in a list of lists and returns it.
 
@@ -33,9 +31,9 @@ and test.csv. The function reads the amino acids sequences one-by-one, and
 for each sequence, creates a list which maintains the percentage frequency
 count of each amino acid in the sequence.
 
-`Percentage frequency count (A) = (Frequency count(A)/Length of sequence)*100`
+	`Percentage frequency count (A) = (Frequency count(A)/Length of sequence)*100`
 
-The function returns a list of such lists for each sequence.
+	The function returns a list of such lists for each sequence.
 
 * **TRAINING**
 The labels given in train.csv are copied into a list Y.
